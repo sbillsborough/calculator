@@ -14,5 +14,9 @@ function solve() {
 
   document.getElementById("result").value = y;
 
-  return y;
+  if (y == null) {
+    clearScreen();
+  } else {
+    return y;
+  }
 }
