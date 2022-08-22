@@ -1,14 +1,26 @@
+body {
+  display: grid;
+  place-items: center;
+}
+
+.screen {
+  width: 192px;
+  height: 34px;
+  margin-right: 6.4px;
+  margin-left: -3px;
+}
+
 .keys {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
 }
 
-.button {
-  width: 30px;
-  height: 30px;
-}
-
-.operator {
-  width: 30px;
-  height: 30px;
+.button,
+.keys,
+.operator,
+.clear {
+  width: 60px;
+  height: 40px;
 }
