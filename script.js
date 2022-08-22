@@ -14,9 +14,11 @@ function solve() {
 
   document.getElementById("result").value = y;
 
-  if (y == null) {
-    clearScreen();
-  } else {
-    return y;
-  }
+  // if (y == null) {
+  //   clearScreen();
+  // } else {
+  //   return y;
+  // }
+
+  return y ? null : clearScreen();
 }
