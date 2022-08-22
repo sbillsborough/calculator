@@ -8,6 +8,8 @@ body {
   height: 34px;
   margin-right: 6.4px;
   margin-left: -3px;
+  border-radius: 20px;
+  border: solid 2px;
 }
 
 .keys {
@@ -19,16 +21,22 @@ body {
 
 .button,
 .keys,
-.operator,
-.clear {
+.clear,
+.operator {
   width: 60px;
   height: 40px;
+  border-radius: 50px;
 }
 
 .button-equals {
   background-color: hsl(110, 73%, 50%);
+  border-radius: 50px;
 }
 
 .button-equals:hover {
   background-color: hsl(110, 73%, 45%);
+}
+
+.button:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0 0);
 }
