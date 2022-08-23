@@ -4,12 +4,13 @@ body {
 }
 
 .screen {
-  width: 192px;
+  width: 174px;
   height: 34px;
   margin-right: 6.4px;
   margin-left: -3px;
   border-radius: 20px;
   border: solid 2px;
+  padding-left: 20px;
 }
 
 .keys {
@@ -38,5 +39,21 @@ body {
 }
 
 .button:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0 0);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0 0);
+}
+
+.operator {
+  background-color: hsl(182, 100%, 50%);
+}
+
+.operator:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0 0);
+}
+
+.clear {
+  background-color: hsl(0, 100%, 49%);
+}
+
+.clear:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0 0);
 }
