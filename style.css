@@ -8,6 +8,7 @@ body {
   height: 34px;
   margin-right: 6.4px;
   margin-left: -3px;
+  margin-bottom: 10px;
   border-radius: 20px;
   border: solid 2px;
   padding-left: 20px;
@@ -52,6 +53,7 @@ body {
 
 .clear {
   background-color: hsl(0, 100%, 49%);
+  margin-bottom: 8px;
 }
 
 .clear:hover {
