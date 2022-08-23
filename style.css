@@ -1,3 +1,7 @@
+:root {
+  --hover-lightness: linear-gradient(rgba(0, 0, 0, 0.2) 0 0);
+}
+
 body {
   display: grid;
   place-items: center;
@@ -36,11 +40,11 @@ body {
 }
 
 .button-equals:hover {
-  background-color: hsl(110, 73%, 45%);
+  background-image: var(--hover-lightness);
 }
 
 .button:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0 0);
+  background-image: var(--hover-lightness);
 }
 
 .operator {
@@ -48,7 +52,7 @@ body {
 }
 
 .operator:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0 0);
+  background-image: var(--hover-lightness);
 }
 
 .clear {
@@ -57,5 +61,5 @@ body {
 }
 
 .clear:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0 0);
+  background-image: var(--hover-lightness);
 }
