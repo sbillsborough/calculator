@@ -44,6 +44,22 @@ body {
   border: none;
 }
 
+.clear:active {
+  transform: translateY(2px);
+}
+
+.button:active {
+  transform: translateY(2px);
+}
+
+.operator:active {
+  transform: translateY(2px);
+}
+
+.button-equals:active {
+  transform: translateY(2px);
+}
+
 .button-equals {
   background-color: hsl(110, 73%, 50%);
   border-radius: 50px;
@@ -64,7 +80,7 @@ body {
   background-color: hsl(182, 100%, 50%);
   border: none;
   box-shadow: inset -3px -3px 7px hsl(182, 100%, 82%),
-    3px 3px 5px hsla(218, 13%, 42%, 0.945);
+    3px 3px 5px hsl(218, 13%, 52%);
 }
 
 .operator:hover {
