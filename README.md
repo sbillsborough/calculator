@@ -14,7 +14,7 @@
 
 ## General info
 
-Simple calculator with neumorphism styling.
+Working calculator with neumorphism styling.
 
 ## Screenshots
 
